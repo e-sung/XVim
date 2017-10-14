@@ -1,4 +1,5 @@
-[\[日本語版\]](README_jp.md)
+* [\[日本語版\]](README_jp.md)
+* [\[한국어판\]](README_kr.md)
 
 # !!!Xcode 9 is not supported (yet)!!!
 
@@ -50,11 +51,10 @@
   4. Launch Xcode. You'll be asked if you load XVim. Press 'Yes' to it.
      If you press 'No' by mistake, close the Xcode and execute the following from a terminal
 
-    ```
-    defaults delete  com.apple.dt.Xcode DVTPlugInManagerNonApplePlugIns-Xcode-X.X     (X.X is your Xcode version)
-    ```
-    
-     Then relaunch Xcode.
+  ```
+  defaults delete  com.apple.dt.Xcode DVTPlugInManagerNonApplePlugIns-Xcode-X.X     (X.X is your Xcode version)
+  ```
+  Then relaunch Xcode.
     
 ## Branches and Releases
  XVim has several branches and releases. Usually you only need to download one of 'releases' and use it.
